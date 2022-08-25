@@ -226,6 +226,7 @@ strong {
     margin-left: calc(10% + 820px);
     position: absolute;
     top: 220px;
+    font-size: 13px;
 }
 
 .download-button:hover {
