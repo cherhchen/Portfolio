@@ -192,6 +192,10 @@ a {
     font-size: 1.1em;
 }
 
+.button__text {
+    font-size: 13px;
+}
+
 .box-image {
     object-fit: cover;
     width: 30%;
