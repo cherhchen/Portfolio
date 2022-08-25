@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="computer-icon.svg" />
+    <title>Cheryl Chen | Portfolio</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="container-icon">
+            <a href="index.html">
+                <img class="primary-icon" src="images/cherylchen-logo.svg" alt="navbar logo"/>
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="#projects-section">Projects</a></li>
+            <li class="list-item"><a href="resume.html">Resume</a></li>
+            <li class="list-item"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+    <div class="landing">
+        <div class="name-desc">
+            <h1 class="name">CHERYL CHEN</h1>
+            <p>Second-year Computer Science student at University of California, Irvine</p>
+            <p>with interests in developing compelling interactive systems, designing good user experiences, and bridging the space between natural sciences and technology</p>
+        </div>
+        <img class="landing-pic" src="images/landing-pic.png" alt="landing"/>
+    </div>
+    
+    <div id="projects-section">
+        <h1 class="section-title">Projects</h1>
+        <div class="box-row">
+            <div class="box">
+                <img class="box-image" src="images/cal-academy-logo.jpg" alt="calacademy logo"/>
+                <div class="box-desc">
+                    <h2>Citations Finder</h2>
+                    <p class="project-date">Summer 2022</p>
+                    <p class="project-desc">
+                        Python project used to locate citations in literature for a single natural history museum.
+                        I wrote a program that used APIs to find relevant journal titles and ISSNs, identified and fixed bugs, and resolved design issues in the scan and validator process. 
+                    </p>
+                    <div class="buttons-div">
+                        <button type="button" class="more-info-button">
+                            <span class="button__icon">
+                                <ion-icon name="information-circle-outline"></ion-icon>
+                            </span>
+                            <span class="button__text">More Info</span>
+                        </button>
+                        <a href="https://github.com/calacademy-research/citations_finder" target="_blank">
+                            <button type="button" class="github-button">
+                                <span class="button__icon">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </span>
+                                <span class="button__text">Github</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img class="box-image" src="images/zotciety.png" alt="zotciety"/>
+                <div class="box-desc">
+                    <h2>Zotciety</h2>
+                    <p class="project-date">Winter 2022</p>
+                    <p class="project-desc">
+                        Web application built with HTML, CSS, Bootstrap, React, and Firebase that aims to foster the development of social connections through answering stimulating questions and completing challenges.
+                        Collaborated with a team and was awarded "Best Beginner Hack" at HackUCI, the largest collegiate hackathon in Orange County, CA.
+                    </p>
+                    <div class="buttons-div">
+                        <a href="https://devpost.com/software/zotciety" target="_blank">
+                            <button type="button" class="more-info-button">
+                                <span class="button__icon">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                </span>
+                                <span class="button__text">More Info</span>
+                            </button>
+                        </a>
+                        <a href="https://github.com/michellelin1/Zotciety" target="_blank">
+                            <button type="button" class="github-button">
+                                <span class="button__icon">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </span>
+                                <span class="button__text">Github</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-row">
+            <div class="box">
+                <img class="box-image" id="text-editor-img" src="images/text-editor.png" alt="text editor"/>
+                <div class="box-desc">
+                    <h2>Text Editor</h2>
+                    <p class="project-date">Spring 2022</p>
+                    <p class="project-desc">
+                        C++ text editor program, similar to vim, with key features including cursor movements, inserting text, and deleting text.
+                    </p>
+                    <div class="buttons-div">
+                        <a href="#">
+                            <button type="button" class="more-info-button">
+                                <span class="button__icon">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                </span>
+                                <span class="button__text">More Info</span>
+                            </button>
+                        </a>
+                        <a href="https://github.com/cherhchen/Text-Editor" target="_blank">
+                            <button type="button" class="github-button">
+                                <span class="button__icon">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </span>
+                                <span class="button__text">Github</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img class="box-image" id="moneycap-img" src="images/moneycap.png" alt="moneycap"/>
+                <div class="box-desc">
+                    <h2>MoneyCap</h2>
+                    <p class="project-date">Summer 2021</p>
+                    <p class="project-desc">
+                        Budget and savings calculator and financial literacy education GUI using Python and libraries including Tkinter and Matplotlib.
+                    </p>
+                    <div class="buttons-div">
+                        <a href="#">
+                            <button type="button" class="more-info-button">
+                                <span class="button__icon">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                </span>
+                                <span class="button__text">More Info</span>
+                            </button>
+                        </a>
+                        <a href="https://github.com/cherhchen/MoneyCap" target="_blank">
+                            <button type="button" class="github-button">
+                                <span class="button__icon">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </span>
+                                <span class="button__text">Github</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <footer class="footer">
+        <p>Made by Cheryl Chen © 2022</p>
+        <div class="email">
+            <img class="email-icon" src="images/envelope.svg" alt="email icon"/>
+            <a href="mailto: cherylhc@uci.edu" class="email-link">Email: cherylhc@uci.edu</a>
+        </div>
+  </footer>
+  <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const navList = document.getElementById('navi-list')
+
+        toggleButton.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        })
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
+

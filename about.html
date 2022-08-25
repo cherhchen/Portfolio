@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="computer-icon.svg" />
+    <title>Cheryl Chen | Portfolio</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="about.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="container-icon">
+            <a href="index.html">
+                <img class="primary-icon" src="images/cherylchen-logo.svg" alt="navbar logo"/>
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="index.html#projects-section">Projects</a></li>
+            <li class="list-item"><a href="resume.html">Resume</a></li>
+            <li class="list-item"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+  </body>
+  <footer class="footer">
+    <p>Made by Cheryl Chen © 2022</p>
+    <div class="email">
+        <img class="email-icon" src="images/envelope.svg" alt="email icon"/>
+        <a href="mailto: cherylhc@uci.edu" class="email-link">Email: cherylhc@uci.edu</a>
+    </div>
+  </footer>
+  <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const navList = document.getElementById('navi-list')
+
+        toggleButton.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        })
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>

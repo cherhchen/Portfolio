@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="computer-icon.svg" />
+    <title>Cheryl Chen | Portfolio</title>
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="resume.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar">
+        <div class="container-icon">
+            <a href="index.html">
+                <img class="primary-icon" src="images/cherylchen-logo.svg" alt="navbar logo"/>
+            </a>
+        </div>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item"><a href="index.html#projects-section">Projects</a></li>
+            <li class="list-item"><a href="resume.html">Resume</a></li>
+            <li class="list-item"><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu" id="toggle-button">
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+            <div class="menu-line"></div>
+        </div>
+    </nav>
+
+    <h1 class="section-title">Resume</h1>
+
+    <div>
+        <a href="Cheryl Chen Resume.pdf" target="_blank" download="Cheryl Chen Resume">
+            <button type="button" class="download-button">
+                <span class="button__icon">
+                    <ion-icon name="download-outline"></ion-icon>
+                </span>
+                <span class="button__text">Download Resume PDF</span>
+            </button>
+        </a>
+    </div>
+
+    <div class="resume-grid">
+        <div class="sidebar">
+            <a href="#education">Education</a>
+            <a href="#relevant-experience">Relevant Experience</a>
+            <a href="#volunteering">Volunteering</a>
+        </div>
+
+        <div>
+            <div id="education">
+                <h2 class="resume-section-title">Education</h2>
+
+                <div class="resume-box">
+                    <div class="resume-heading">
+                        <h3>University of California, Irvine</h3>
+                        <p>Computer Science, B.S.</p>
+                        <p class="place-time">2021 - Present</p>
+                        <p class="place-time">GPA: 4.0</p>
+                        <p class="place-time">Expected Graduation: June 2025</p>
+                        <img class="resume-box-img" src="images/uci-logo.png" alt="uci logo"/>
+                        <img class="logo-img" src="images/uci-logo2.png" alt="uci logo"/>
+                    </div>
+                <div class="resume-desc">
+                    <ul>
+                        <li><strong>Relevant Coursework</strong><br>
+                            Programming with Software Libraries (Python); Intermediate Programming (Python); Programming in C/C++ as a Second Language; Data Structure Implementation and Analysis; Discrete Mathematics; Boolean Logic and Discrete Structures; Probability and Statistics for CS; Linear Algebra; Human Computer Interaction
+                        </li>
+                        <br>
+                        <li><strong>Achievements</strong><br>
+                            <ul class="square">
+                                <li>Dean’s Honor List <i>(Fall 2021, Winter 2022, Spring 2022)</i></li>
+                                <li>Tarkovsky Prize <i>(placed first in essay contest hosted by San Francisco Art & Film)</i></li>
+                            </ul>
+                        </li>
+                        <br>
+                        <li><strong>Technical Skills</strong><br>
+                            Python, C++, HTML and CSS, Git
+                        </li>
+                        <br>
+                        <li><strong>Languages</strong><br>
+                            <ul class="square">
+                                <li>Native proficiency in English</li>
+                                <li>Proficienct in Mandarin</li>
+                                <li>Proficienct in Cantonese</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+
+                <div class="resume-box">
+                    <div class="resume-heading">
+                        <h3>Lowell High School</h3>
+                        <p class="place-time">San Francisco, CA</p>
+                        <p class="place-time">2017 - 2021</p>
+                        <p class="place-time">GPA: 4.0</p>
+                        <img class="logo-img" src="images/lowell-logo.jpg" alt="lowell logo"/>
+                    </div>
+                    <div class="resume-desc">
+                        <ul>
+                            <li><strong>AP Courses</strong><br>
+                                Computer Science A; Calculus BC; Statistics; Chemistry; Physics C: Mechanics; Physics C: Electricity & Magnetism
+                            </li>
+                            <br>
+                            <li><strong>Activities</strong><br>
+                                <ul class="square">
+                                    <li>Lacrosse Team</li>
+                                    <li>Quiz Bowl Team</li>
+                                    <li>Teens for Tutor Club</li>
+                                </ul>
+                            </li>                    
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="relevant-experience">
+                <h2 class="resume-section-title">Relevant Experience</h2>
+
+                <div class="resume-box">
+                    <div class="resume-heading">
+                        <h3>Scientific Computing Intern</h3>
+                        <p>California Academy of Sciences</p>
+                        <p class="place-time">San Francisco, CA</p>
+                        <p class="place-time">July 2022 - Present</p>
+                        <img class="resume-box-img" src="images/cal-academy-logo2.png" alt="cal academy logo"/>
+                    </div>
+                    <div class="resume-desc">
+                        <p class="company-desc">The California Academy of Sciences is a research institute and natural history museum that is among the largest museums of natural history in the world, housing over 46 million specimens.</p>
+                        <br>
+                        <ul>
+                            <li>Worked on a citations finder program to measure the scientific impact of the museum's specimens</li>
+                            <li>Resolved technical design issues and bugs in Python</li>
+                            <li>Developed mockups and assisted in defining specifications for a collections explorer web project aiming to educate the public on the scientific importance of collecting specimens</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-box">
+                    <div class="resume-heading">
+                        <h3>Quality Assurance Intern</h3>
+                        <p>Dataships</p>
+                        <p class="place-time">Dublin, Ireland</p>
+                        <p class="place-time">June 2022 - August 2022</p>
+                        <img class="resume-box-img" src="images/dataships-logo.png" alt="dataships logo"/>
+                    </div>
+                    <div class="resume-desc">
+                        <p class="company-desc">Dataships is a SaaS company specializing in automating compliance with data privacy laws and building first party data relationships.</p>
+                        <br>
+                        <ul>
+                            <li>User tested software product and recommended improvements to ensure good user experience</li>
+                            <li>Conducted a competitor's analysis of 30 companies to assist founder in preparing for board meeting</li>
+                            <li>Performed quality assurance checks for 140 customers</li>
+                            <li>Designed over 20 images and graphics for the company blog using Canva</li>
+                            <li>Compiled a list of marketing contacts for over 1000 companies</li>
+                            <li>Navigated 8-hour time zone difference and clearly communicated with supervisors and colleagues </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="volunteering">
+                <h2 class="resume-section-title"> Volunteering</h2>
+                
+                <div class="resume-box">
+                    <div class="resume-heading">
+                        <h3>Events Chair</h3>
+                        <p>Mission Bit Leadership Council</p>
+                        <p class="place-time">San Francisco, CA</p>
+                        <p class="place-time">February 2022 - Present</p>
+                        <img class="logo-img" src="images/missionbit-logo.png" alt="mission bit logo"/>
+                    </div>
+                    <div class="resume-desc">
+                        <p class="company-desc">Mission Bit is a non-profit organization dedicated to empowering under resourced high school youth across the San Francisco Bay Area by making computer science more accessible through free coding classes.</p>
+                        <br>
+                        <ul>
+                            <li>Coordinated with council members to plan events focused on building community, developing professional skills, and promoting inclusivity and diversity in tech</li>
+                            <li>Designed flyers and promoted events on social platforms to alumni network</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume-box">
+                    <div class="resume-heading">
+                        <h3>Academic Tutor</h3>
+                        <p>Read Write Discover</p>
+                        <p class="place-time">San Francisco, CA</p>
+                        <p class="place-time">June 2019 - August 2019</p>
+                        <img class="logo-img" src="images/rwd-logo.png" alt="rwd logo"/>
+                    </div>
+                    <div class="resume-desc">
+                        <p class="company-desc">Read Write Discover is a nonprofit organization that partners with libraries to host summer tutoring opportunities for K-8th grade students in the San Francisco Bay Area.</p>
+                        <br>
+                        <ul>
+                            <li>Provided free summer reading and writing lessons to youth in my community</li>
+                            <li>Researched appropriate curriculums and organized individualized lessons</li>
+                            <li>Composed student evaluations for parents</li>
+                            <li>Demonstrated patience and adaptibility in evolving situations</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+  <footer class="footer">
+    <p>Made by Cheryl Chen © 2022</p>
+    <div class="email">
+        <img class="email-icon" src="images/envelope.svg" alt="email icon"/>
+        <a href="mailto: cherylhc@uci.edu" class="email-link">Email: cherylhc@uci.edu</a>
+    </div>
+  </footer>
+  <script>
+        const toggleButton = document.getElementById('toggle-button')
+        const navList = document.getElementById('navi-list')
+
+        toggleButton.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        })
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>

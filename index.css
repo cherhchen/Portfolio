@@ -1,0 +1,307 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h1 {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h2 {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+h3 {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+li {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.navbar {
+    background-color: #A2E8E8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.primary-icon {
+    height: 60px;
+    margin-left: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 20px;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: teal;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-line {
+    width: 20px;
+    height: 3px;
+    background-color: teal;
+    margin-bottom: 4px;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.name-desc {
+    width: 50%;
+}
+
+.name {
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+.landing-pic {
+    height: 400px;
+    width: 400px;
+}
+
+.section-title {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 20px;
+}
+
+.box-row {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    height: 350px;
+    width: 600px;
+    margin: 0px 40px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px grey;
+    transition: transform .2s;
+    display: flex;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box-desc {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 25px;
+    margin-right: 15px;
+}
+
+.project-date {
+    font-size: 12px;
+    color: gray;
+}
+
+.project-desc {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.buttons-div {
+    margin-top: 20px;
+}
+
+.more-info-button {
+    display: inline-flex;
+    height: 35px;
+    width: 100px;
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #34eb74;
+    line-height: 35px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.more-info-button:hover {
+    background-color: #4CAF50;
+}
+
+.github-button {
+    display: inline-flex;
+    height: 35px;
+    width: 100px;
+    font-family: 'Poppins', 'sans-serif';
+    background-color: black;
+    line-height: 35px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    color: white
+}
+
+.github-button:hover {
+    background-color: gray;
+}
+
+.button__icon {
+    font-size: 1.1em;
+}
+
+.box-image {
+    object-fit: cover;
+    width: 30%;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+#moneycap-img {
+    object-position: 20%;
+}
+
+#text-editor-img {
+    object-position: 0%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    width: auto;
+    padding: 40px;
+    margin-top: 60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.email {
+    display: flex;
+}
+
+.email-icon {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 5px;
+}
+
+.email-link {
+    font-family: 'Poppins', 'sans-serif';
+    color: #49a0e3;
+}
+
+
+@media all and (max-width: 560px) {
+    .navbar {
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navbar .container-icon {
+        width: 100%;
+    }
+
+    .menu {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .nav-list {
+        list-style-type: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        display: none;
+    }
+
+    .nav-list .list-item {
+        display: block;
+        border-top: 1px solid teal;
+    }
+
+    .primary-icon {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .footer {
+        display: block;
+    }
+}
+
+@media all and (max-width: 650px) {
+    .landing {
+        display: block;
+    }
+
+    .name-desc {
+        margin: auto;
+    }
+
+    .landing-pic {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .box-row {
+        display: block;
+    }
+
+    .box {
+        margin: 0px auto;
+        margin-bottom: 50px;
+    }
+}
