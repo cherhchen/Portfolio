@@ -239,6 +239,26 @@ a {
     color: #49a0e3;
 }
 
+.linkedin-button {
+    display: inline-flex;
+    height: 35px;
+    width: 180px;
+    font-family: 'Poppins', 'sans-serif';
+    background-color: #0077b5;
+    line-height: 35px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+}
+
+.linkedin-button:hover {
+    background-color: grey;
+}
 
 @media all and (max-width: 560px) {
     .navbar {
@@ -299,7 +319,7 @@ a {
     }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1150px) {
     .box-row {
         display: block;
     }
