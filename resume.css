@@ -233,6 +233,14 @@ strong {
     background-color: #4CAF50;
 }
 
+.button__icon {
+    font-size: 1.1em;
+}
+
+.button__text {
+    font-size: 13px;
+}
+
 .linkedin-button {
     display: inline-flex;
     height: 35px;
