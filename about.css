@@ -54,29 +54,25 @@ footer {
 .section-title {
     font-size: 36px;
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-left: 50px;
+    /* padding-bottom: 20px; */
 }
 
 .about-headshot {
-    height: 50vh;
-    object-fit: contain;
+    height: 60vh;
+    object-fit: cover;
+    object-position: 0% 40%;
 }
 
 .pork-chop {
-    height: 50vh;
+    height: 60vh;
     object-fit: contain;
 }
 
-.carousel {
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .carousel-inner{
-    background-color: black;
+    background-color: #3B6CCD;
 }
   
 .text-container {

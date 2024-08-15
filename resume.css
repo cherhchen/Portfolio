@@ -159,6 +159,7 @@ strong {
 .logo-img {
     width: 40%;
     margin: 10px 90px;
+    object-fit: contain;
 }
 
 .company-desc {
